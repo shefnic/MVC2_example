@@ -1,0 +1,75 @@
+body {
+  font: Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+body>*{
+  margin: 10px;
+}
+
+#imgwrapper{
+	position: relative;
+
+}
+
+#imgheadtext{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	font-size: 18px;
+  color: white;
+}
+
+#headimg{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+#intro{
+  display: block; 
+}
+
+#content>*{
+  margin: 10px;
+}
+
+#shortlist{
+  float:left;
+  width: 25%;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	border: 2px solid black;
+	width: 50%;
+}
+
+thead{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+caption{
+	display: table-caption;
+	text-align: left;
+	caption-side: bottom;
+	font-size: 12px;
+}
+
+#form_wrapper{
+	width: 50%;
+	border: 2px solid blue;
+}
+
+#rate_quote>:not(.date){
+	margin: 10px;
+}
+
+#duration{
+	width: 60px;
+}
+
+#tours, #duration{
+	overflow: hidden;
+}
